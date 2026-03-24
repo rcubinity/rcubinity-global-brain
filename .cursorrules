@@ -1,7 +1,9 @@
 Follow all rules from this repository (adjust paths if you copy only the `.ai` folder elsewhere):
 
 - `.ai/frontend.md` — Angular/SPA, `@rcubinity/core-angular`, API layer, models
+- `.ai/core-angular-skill.md` — deep `@rcubinity/core-angular` implementation skill
 - `.ai/backend.md` — NestJS-style HTTP services, shared in-repo `core/` layer, validation, routing contracts
+- `.ai/core-nestjs-skill.md` — deep shared `core/*` NestJS implementation skill
 - `.ai/python-services.md` — Python services, sockets, workers
 - `.ai/context-and-docs.md` — colocated context docs, program-level atlas
 - `.ai/devops.md` — containers, CI, config

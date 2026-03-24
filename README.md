@@ -7,7 +7,9 @@ Generic **AI coding standards** for Cursor (and similar tools), usable across **
 | File | Topic |
 |------|--------|
 | [`.ai/frontend.md`](.ai/frontend.md) | Angular/SPA: signals, smart/dumb split, **named routes / no hardcoded APIs**, models |
+| [`.ai/core-angular-skill.md`](.ai/core-angular-skill.md) | Deep Cursor playbook for `@rcubinity/core-angular`: ApiService/ApiCall, coreSignal, auth flow, model mapping |
 | [`.ai/backend.md`](.ai/backend.md) | Nest-style: layering, DTOs/validation, **route catalog parity**, guards, errors |
+| [`.ai/core-nestjs-skill.md`](.ai/core-nestjs-skill.md) | Deep Cursor playbook for shared Nest `core/*`: decorators, guards, Joi, route metadata, response contract |
 | [`.ai/python-services.md`](.ai/python-services.md) | Python: sockets, env config, structure |
 | [`.ai/context-and-docs.md`](.ai/context-and-docs.md) | **Atlas**, `*.context.md` capsules, repo overview docs |
 | [`.ai/devops.md`](.ai/devops.md) | Docker, CI, env |
