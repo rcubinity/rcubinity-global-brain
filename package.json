@@ -1,0 +1,25 @@
+{
+  "name": "@rcubinity/global-brain",
+  "version": "0.1.0",
+  "description": "Global AI rules and skills for Rcubinity projects",
+  "license": "MIT",
+  "author": "Rcubinity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcubinity/global-brain.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    ".ai",
+    ".cursorrules",
+    "README.md"
+  ],
+  "exports": {
+    "./rules/*": "./.ai/*.md",
+    "./cursor-rules": "./.cursorrules",
+    "./README": "./README.md"
+  }
+}
