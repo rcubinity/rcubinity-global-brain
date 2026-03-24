@@ -1,9 +1,14 @@
-Follow all rules strictly from:
-- /ai/frontend.md
-- /ai/backend.md
-- /ai/devops.md
-- /ai/security.md
-- /ai/testing.md
-- /ai/review-checklist.md
+Follow all rules from this repository (adjust paths if you copy only the `.ai` folder elsewhere):
 
-Always generate production-ready, scalable code.
+- `.ai/frontend.md` — Angular/SPA, `@rcubinity/core-angular`, API layer, models
+- `.ai/backend.md` — NestJS-style HTTP services, shared in-repo `core/` layer, validation, routing contracts
+- `.ai/python-services.md` — Python services, sockets, workers
+- `.ai/context-and-docs.md` — colocated context docs, program-level atlas
+- `.ai/devops.md` — containers, CI, config
+- `.ai/security.md` — baseline security
+- `.ai/testing.md` — tests and quality
+- `.ai/review-checklist.md` — PR review
+
+These rules are **generic** and **multi-project**. Repository-specific rules in each app’s `.cursor/rules/` or local docs **override** when they conflict.
+
+Always aim for production-quality, maintainable code that matches the **existing** patterns in the target repository.
