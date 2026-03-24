@@ -13,12 +13,26 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    ".ai",
+    "guides",
     ".cursorrules",
     "README.md"
   ],
   "exports": {
-    "./rules/*": "./.ai/*.md",
+    "./frontend/angular/rules": "./guides/frontend/angular/rules.md",
+    "./frontend/angular/core-angular-skill": "./guides/frontend/angular/core-angular-skill.md",
+    "./backend/nestjs/rules": "./guides/backend/nestjs/rules.md",
+    "./backend/nestjs/core-nestjs-skill": "./guides/backend/nestjs/core-nestjs-skill.md",
+    "./backend/python/rules": "./guides/backend/python/rules.md",
+    "./design/ui-ux-styling-bootstrap/ui": "./guides/design/ui-ux-styling-bootstrap/ui.md",
+    "./design/ui-ux-styling-bootstrap/ux": "./guides/design/ui-ux-styling-bootstrap/ux.md",
+    "./design/ui-ux-styling-bootstrap/styling": "./guides/design/ui-ux-styling-bootstrap/styling.md",
+    "./design/ui-ux-styling-bootstrap/bootstrap": "./guides/design/ui-ux-styling-bootstrap/bootstrap.md",
+    "./platform/devops": "./guides/platform/devops.md",
+    "./platform/security": "./guides/platform/security.md",
+    "./platform/testing": "./guides/platform/testing.md",
+    "./platform/review-checklist": "./guides/platform/review-checklist.md",
+    "./docs/context-and-docs": "./guides/docs/context-and-docs.md",
+    "./docs/capsule": "./guides/docs/capsule.md",
     "./cursor-rules": "./.cursorrules",
     "./README": "./README.md"
   }

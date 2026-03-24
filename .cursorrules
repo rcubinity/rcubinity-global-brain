@@ -1,15 +1,20 @@
-Follow all rules from this repository (adjust paths if you copy only the `.ai` folder elsewhere):
+Follow all rules from this repository (tech-wise structure under `guides/`):
 
-- `.ai/frontend.md` — Angular/SPA, `@rcubinity/core-angular`, API layer, models
-- `.ai/core-angular-skill.md` — deep `@rcubinity/core-angular` implementation skill
-- `.ai/backend.md` — NestJS-style HTTP services, shared in-repo `core/` layer, validation, routing contracts
-- `.ai/core-nestjs-skill.md` — deep shared `core/*` NestJS implementation skill
-- `.ai/python-services.md` — Python services, sockets, workers
-- `.ai/context-and-docs.md` — colocated context docs, program-level atlas
-- `.ai/devops.md` — containers, CI, config
-- `.ai/security.md` — baseline security
-- `.ai/testing.md` — tests and quality
-- `.ai/review-checklist.md` — PR review
+- `guides/frontend/angular/rules.md` — Angular/SPA baseline
+- `guides/frontend/angular/core-angular-skill.md` — deep `@rcubinity/core-angular` skill
+- `guides/backend/nestjs/rules.md` — NestJS backend baseline + shared `core/`
+- `guides/backend/nestjs/core-nestjs-skill.md` — deep shared `core/*` NestJS skill
+- `guides/backend/python/rules.md` — Python services and workers
+- `guides/design/ui-ux-styling-bootstrap/ui.md` — UI guidelines
+- `guides/design/ui-ux-styling-bootstrap/ux.md` — UX guidelines
+- `guides/design/ui-ux-styling-bootstrap/styling.md` — styling guidelines
+- `guides/design/ui-ux-styling-bootstrap/bootstrap.md` — Bootstrap usage guidelines
+- `guides/platform/devops.md` — delivery and infra hygiene
+- `guides/platform/security.md` — security baseline
+- `guides/platform/testing.md` — testing expectations
+- `guides/platform/review-checklist.md` — PR review checklist
+- `guides/docs/context-and-docs.md` — atlas/capsule documentation conventions
+- `guides/docs/capsule.md` — capsule update workflow
 
 These rules are **generic** and **multi-project**. Repository-specific rules in each app’s `.cursor/rules/` or local docs **override** when they conflict.
 
