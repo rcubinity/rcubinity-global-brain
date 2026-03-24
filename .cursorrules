@@ -1,0 +1,9 @@
+Follow all rules strictly from:
+- /ai/frontend.md
+- /ai/backend.md
+- /ai/devops.md
+- /ai/security.md
+- /ai/testing.md
+- /ai/review-checklist.md
+
+Always generate production-ready, scalable code.
